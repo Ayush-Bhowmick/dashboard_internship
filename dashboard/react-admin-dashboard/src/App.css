@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #ffffff 0%, #000703 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.dashboard-container {
+  width: 100%;
+  max-width: 1200px;
+  background: linear-gradient(120deg, #ff0303 0%, #fdd007 100%);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #f4a261;
+  margin-bottom: 20px;
+}
+
+.components-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.component {
+  flex: 1 1 45%;
+  min-width: 300px;
+  margin-bottom: 20px;
+  background: #2a5298;
+  padding: 20px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.table-component table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-component th,
+.table-component td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table-component th {
+  background-color: #f4a261;
+}
+
+.chart-component {
+  background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+}
+
+.calendar-component {
+  background: linear-gradient(135deg, #dce35b 0%, #45b649 100%);
+}
+
+.kanban-component {
+  background: linear-gradient(135deg, #e96443 0%, #904e95 100%);
+}
+
+.kanban-component .task {
+  background: #ffffff;
+  color: #333333;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
